@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Arundev Vijayan — Automation Test Engineer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0f1724; /* deep navy */
+      --card:#0b1220;
+      --accent:#06b6d4; /* teal */
+      --muted:#94a3b8;
+      --glass: rgba(255,255,255,0.04);
+      --glass-2: rgba(255,255,255,0.02);
+      --accent-2:#7c3aed; /* purple */
+      font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:linear-gradient(180deg,#071024 0%, #071a2b 50%, #012033 100%);color:#e6eef6}
+    .container{max-width:980px;margin:40px auto;padding:28px}
+    .card{background:linear-gradient(180deg,var(--card), rgba(10,16,24,0.7));border-radius:14px;padding:20px;box-shadow:0 6px 30px rgba(2,6,23,0.6);border:1px solid rgba(255,255,255,0.03)}
+    header{display:flex;gap:18px;align-items:center}
+    .avatar{width:96px;height:96px;border-radius:12px;overflow:hidden;border:2px solid rgba(255,255,255,0.06)}
+    .avatar img{width:100%;height:100%;object-fit:cover;display:block}
+    h1{margin:0;font-size:20px;letter-spacing:0.2px}
+    .title{color:var(--accent);font-weight:700}
+    .sub{color:var(--muted);font-size:13px;margin-top:6px}
+
+    .top-right{margin-left:auto;text-align:right}
+    .contact{font-size:13px;color:var(--muted);line-height:1.5}
+    .btn{display:inline-block;padding:8px 12px;border-radius:8px;background:linear-gradient(90deg,var(--accent),var(--accent-2));color:#021024;font-weight:700;text-decoration:none;margin-top:10px}
+
+    .grid{display:grid;grid-template-columns: 1fr 360px;gap:18px;margin-top:18px}
+    .section{margin-top:12px}
+    h2{margin:0;font-size:15px}
+    p.lead{color:var(--muted);margin-top:8px;font-size:14px}
+
+    /* Skills */
+    .skills{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+    .skill{display:flex;align-items:center;gap:8px;padding:8px 10px;border-radius:10px;background:var(--glass-2);border:1px solid rgba(255,255,255,0.02);min-width:140px}
+    .skill i{width:28px;height:28px;display:flex;align-items:center;justify-content:center;border-radius:8px;background:rgba(255,255,255,0.04)}
+    .skill small{color:var(--muted);font-size:13px}
+
+    /* Projects */
+    .projects{display:flex;flex-direction:column;gap:12px}
+    .project{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border-radius:10px;padding:12px;border:1px solid rgba(255,255,255,0.03);display:flex;gap:12px}
+    .proj-img{width:120px;height:70px;border-radius:8px;overflow:hidden}
+    .proj-img img{width:100%;height:100%;object-fit:cover}
+    .proj-body{flex:1}
+    .proj-title{font-weight:700}
+    .proj-desc{color:var(--muted);font-size:13px;margin-top:6px}
+    .proj-tags{margin-top:8px;display:flex;gap:8px;flex-wrap:wrap}
+    .tag{font-size:12px;padding:6px 8px;border-radius:8px;background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.02)}
+
+    /* Right column */
+    .right .card-mini{background:var(--glass);padding:12px;border-radius:10px;margin-bottom:12px;border:1px solid rgba(255,255,255,0.02)}
+    .progress{height:8px;background:rgba(255,255,255,0.04);border-radius:999px;overflow:hidden}
+    .progress > div{height:100%;background:linear-gradient(90deg,var(--accent),var(--accent-2))}
+
+    footer{margin-top:20px;text-align:center;color:var(--muted);font-size:13px}
+
+    /* Responsive */
+    @media (max-width:900px){.grid{grid-template-columns:1fr;}.top-right{text-align:left;margin-left:0}}
+
+    /* small helpers */
+    .icon-circle{width:36px;height:36px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;background:linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.01));border:1px solid rgba(255,255,255,0.02)}
+    a.link{color:var(--accent);text-decoration:none}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <header>
+  <div class="avatar">
+    <img src="https://raw.githubusercontent.com/arunqadns/arundev-t-vijayan/main/assets/Arundev%20photo.jpg" alt="avatar">
+  </div>
+  <div>
+    <h1>ARUNDEV VIJAYAN <span class="title">• Software Test Engineer</span></h1>
+    <div class="sub">Automation | Selenium | Java | API Testing | CI/CD</div>
+    <div class="sub" style="margin-top:8px">Kochi, Kerala • Open to Remote / Hybrid / Onsite</div>
+  </div>
+
+  <div class="top-right">
+    <div class="contact">
+      <div><i class="fa-solid fa-envelope"></i> arundevvijayan@gmail.com</div>
+      <div><i class="fa-solid fa-phone"></i> +91 9746174947</div>
+      <div><i class="fa-brands fa-linkedin"></i> 
+        <a class="link" href="https://www.linkedin.com/in/arundevvijayan/" target="_blank">linkedin.com/in/arundevvijayan</a>
+      </div>
+      <div><i class="fa-brands fa-github"></i> 
+        <a class="link" href="https://github.com/arunqadns/Automation-Framework-Project-Swaglabs.git" target="_blank">github.com/arunqadns</a>
+      </div>
+    </div>
+    <a class="btn" href="#contact">Contact</a>
+  </div>
+</header>
+
+      <div class="grid">
+        <div>
+          <section class="section">
+            <h2>About</h2>
+            <p class="lead">Results-driven QA professional with <strong>6+ years</strong> of IT experience, including <strong>4 years</strong> in manual and automation testing. Skilled in designing automation frameworks (Selenium + Java + TestNG), API testing (REST Assured, Postman), and integrating tests into CI/CD pipelines (Jenkins). Passionate about quality engineering and test automation that scales.</p>
+          </section>
+
+          <section class="section">
+            <h2>Key Projects</h2>
+            <div class="projects">
+              <div class="project">
+                <div class="proj-img"><img src="https://raw.githubusercontent.com/arunqadns/arundev-t-vijayan/5224a9ab06ae21c91a4597c7cbd73e30fd153cb3/assets/lum.jpg" alt="project"></div>
+                <div class="proj-body">
+                  <div class="proj-title">Luminar Technolab — CRM (Education domain)</div>
+                  <div class="proj-desc">Functional, automation & API testing for CRM workflows covering leads, enrollments, payments, and role-based access.</div>
+                  <div class="proj-tags"><span class="tag">Selenium</span><span class="tag">Java</span><span class="tag">TestNG</span><span class="tag">REST Assured</span><span class="tag">JIRA</span></div>
+                </div>
+              </div>
+
+              <div class="project">
+                <div class="proj-img"><img src="https://raw.githubusercontent.com/arunqadns/arundev-t-vijayan/5224a9ab06ae21c91a4597c7cbd73e30fd153cb3/assets/fsd.jpg" alt="project2"></div>
+                <div class="proj-body">
+                  <div class="proj-title">FSD Motors — E-commerce (Used Vehicles)</div>
+                  <div class="proj-desc">E2E testing for web portal—inventory browsing, search, checkout flow; created regression suite integrated with Jenkins.</div>
+                  <div class="proj-tags"><span class="tag">Automation Suite</span><span class="tag">CI/CD</span><span class="tag">Selenium Grid</span></div>
+                </div>
+              </div>
+
+              <div class="project">
+                <div class="proj-img"><img src="https://raw.githubusercontent.com/arunqadns/arundev-t-vijayan/5224a9ab06ae21c91a4597c7cbd73e30fd153cb3/assets/medi.jpg" alt="project3"></div>
+                <div class="proj-body">
+                  <div class="proj-title">Mediflow — Hospital Management System</div>
+                  <div class="proj-desc">Automated UI & API tests to validate patient records, appointments, and billing workflows. Reduced manual regression time significantly.</div>
+                  <div class="proj-tags"><span class="tag">Postman</span><span class="tag">REST Assured</span><span class="tag">Selenium</span></div>
+                </div>
+              </div>
+
+            </div>
+          </section>
+
+          <section class="section">
+            <h2>Selected Code / Snippet</h2>
+            <p class="lead">A short, copy‑paste ready Java + TestNG snippet showing a basic REST Assured API validation used in my projects.</p>
+            <pre style="background:#021124;padding:12px;border-radius:8px;color:#cfefff;overflow:auto;font-size:13px">// Maven dependency: io.rest-assured
+import io.restassured.RestAssured;
+import static io.restassured.RestAssured.*;
+import static org.hamcrest.Matchers.*;
+
+public class ApiTestExample {
+  @Test
+  public void getUserReturns200() {
+    RestAssured.baseURI = "https://reqres.in/api";
+    given().
+      when().get("/users/2").
+      then().statusCode(200).
+      body("data.id", equalTo(2));
+  }
+}
+</pre>
+
+          </section>
+
+        </div>
+
+        <aside class="right">
+          <div class="card-mini">
+            <h2>Skills</h2>
+            <div class="skills" style="margin-top:10px">
+              <div class="skill"><i class="fa-brands fa-java"></i><div><strong>Java</strong><br><small>Core, OOP</small></div></div>
+              <div class="skill"><i class="fa-brands fa-selenium"></i><div><strong>Selenium</strong><br><small>WebDriver, POM</small></div></div>
+              <div class="skill"><i class="fa-solid fa-tools"></i><div><strong>TestNG</strong><br><small>Frameworks</small></div></div>
+              <div class="skill"><i class="fa-solid fa-network-wired"></i><div><strong>REST Assured</strong><br><small>API Automation</small></div></div>
+              <div class="skill"><i class="fa-brands fa-git-alt"></i><div><strong>Git</strong><br><small>Version Control</small></div></div>
+              <div class="skill"><i class="fa-brands fa-jenkins"></i><div><strong>Jenkins</strong><br><small>CI/CD Pipelines</small></div></div>
+            </div>
+          </div>
+
+          <div class="card-mini">
+            <h2>Experience</h2>
+            <p class="lead" style="margin-top:8px">6+ years in IT — Automation & Manual Testing across Education, E‑commerce, and Healthcare domains. Past roles include Deepnetsoft (Software Quality Analyst), Freeline (Software Test Engineer), Lulu (IT Support/QA Assistance).</p>
+          </div>
+
+          <div class="card-mini">
+            <h2>Education</h2>
+            <p class="lead" style="margin-top:8px"><strong>MCA</strong>, University of Calicut (2017)<br><strong>BSc Electronics</strong>, University of Calicut (2014)</p>
+          </div>
+
+          <div class="card-mini" id="contact">
+            <h2>Contact</h2>
+            <p class="lead">Email: <a class="link" href="mailto:arundevvijayan@gmail.com">arundevvijayan@gmail.com</a><br>Phone: +91 9746174947</p>
+            <a class="btn" href="mailto:arundevvijayan@gmail.com">Send Email</a>
+          </div>
+
+        </aside>
+      </div>
+
+      <footer>
+        <small>Portfolio generated for Arundev Vijayan • Automation Test Engineer — customize project links and images as needed.</small>
+      </footer>
+    </div>
+  </div>
+
+  <script>
+    // Small helper: replace placeholder avatar with local image if available
+    // You can replace the img src attributes directly in HTML.
+    console.log('Portfolio template loaded. Replace images and project links with your own.');
+  </script>
+</body>
+</html>
