@@ -71,7 +71,75 @@
     /* small helpers */
     .icon-circle{width:36px;height:36px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;background:linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.01));border:1px solid rgba(255,255,255,0.02)}
     a.link{color:var(--accent);text-decoration:none}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	.soft-skills {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.soft-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--glass);
+  border: 1px solid rgba(255,255,255,0.05);
+  border-radius: 8px;
+  padding: 8px 10px;
+}
+
+.soft-item span {
+  color: #e6eef6;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.stars {
+  color: #007bff; /* replace this with your portfolio’s accent color */
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+
+	
+	
+
+	
+		.skill strong {
+  font-size: 13px;   /* was around 15–16px by default */
+  font-weight: 600;
+}
+
+.skill small {
+  font-size: 11px;   /* was 13px earlier */
+  color: var(--muted);
+}
+	
+button,
+.btn,
+a.button {
+  font-size: 13px;      /* smaller text */
+  padding: 6px 14px;    /* adjust padding for balance */
+}
+	
+
+
+	
+	
   </style>
+  
+  
+
+  
 </head>
 <body>
   <div class="container">
@@ -156,6 +224,56 @@
 
             </div>
           </section>
+		  
+		  
+	<section class="section">
+  <h2>Responsibilities</h2>
+  <ul style="color:var(--muted);font-size:14px;line-height:1.6;margin-top:8px;padding-left:18px">
+    <li>Design, develop, and maintain automation frameworks using Selenium, Java, and TestNG.</li>
+    <li>Create and execute comprehensive test cases and scripts for functional, regression, and integration testing.</li>
+    <li>Perform API testing using Postman and REST Assured, validating responses and schema.</li>
+    <li>Identify, document, and track defects using Jira, ensuring timely resolution.</li>
+    <li>Collaborate with developers, product owners, and QA teams to ensure quality at every stage.</li>
+    <li>Integrate automated test suites into CI/CD pipelines with Jenkins for continuous validation.</li>
+    <li>Generate detailed test reports and provide feedback to stakeholders on software quality.</li>
+  </ul>
+</section>	  
+		  
+	
+
+
+	<section class="section" id="featured-project">
+  <h2>Framework Development Automation Project</h2>
+  <div class="project" style="margin-top:10px;">
+    <div class="proj-img">
+      <img src="https://raw.githubusercontent.com/arunqadns/arundev-t-vijayan/main/assets/swaglabs.png" alt="SwagLabs Project">
+    </div>
+    <div class="proj-body">
+      <div class="proj-title">Automation Framework — SwagLabs</div>
+      <div class="proj-desc">
+        A hybrid automation framework built using Selenium, Java, TestNG, and Maven.
+        Integrated with ExtentReports for detailed test execution reports.
+      </div>
+      <div class="proj-tags">
+        <span class="tag">Selenium</span>
+        <span class="tag">Java</span>
+        <span class="tag">TestNG</span>
+        <span class="tag">Maven</span>
+        <span class="tag">ExtentReports</span>
+      </div>
+      <div style="margin-top:10px;">
+        <a class="btn" href="https://github.com/arunqadns/Automation-Framework-Project-Swaglabs" target="_blank">
+          <i class="fa-brands fa-github"></i> View on GitHub
+        </a>
+      </div>
+    </div>
+  </div>
+</section>		
+		  
+
+		  
+		  
+<!---		  
 
           <section class="section">
             <h2>Selected Code / Snippet</h2>
@@ -178,6 +296,8 @@ public class ApiTestExample {
 </pre>
 
           </section>
+		  
+		  -->
 
         </div>
 
@@ -205,16 +325,73 @@ public class ApiTestExample {
 
             </div>
           </div>
-
-          <div class="card-mini">
+<!--        <div class="card-mini">
             <h2>Experience</h2>
             <p class="lead" style="margin-top:8px">6+ years in IT — Automation & Manual Testing across Education, E‑commerce, and Healthcare domains. Past roles include Deepnetsoft (Software Quality Analyst), Freeline (Software Test Engineer), Lulu (IT Support/QA Assistance).</p>
           </div>
+		  
+		  
+		  
+		 <div class="card-mini">
+  <h2>Responsibilities</h2>
+  <ul style="color:var(--muted);font-size:13px;line-height:1.6;margin-top:8px;padding-left:18px">
+    <li>Developed automation frameworks (Selenium + Java).</li>
+    <li>Designed and executed test scripts.</li>
+    <li>Performed API testing using REST Assured.</li>
+    <li>Managed defects via Jira.</li>
+    <li>Integrated tests with Jenkins pipelines.</li>
+  </ul>
+</div> 
+		  
+		  
+	--> 	  
+		  
+		  
+		  
+		  
+		  
 
           <div class="card-mini">
             <h2>Education</h2>
             <p class="lead" style="margin-top:8px"><strong>MCA</strong>, University of Calicut (2017)<br><strong>BSc Electronics</strong>, University of Calicut (2014)</p>
           </div>
+		  
+		  
+		  
+		  
+		  
+	<div class="card-mini">
+  <h2>Soft Skills</h2>
+  <div class="soft-skills">
+    <div class="soft-item">
+      <span>Analytical & Problem-Solving</span>
+      <div class="stars">★★★★★</div>
+    </div>
+    <div class="soft-item">
+      <span>Attention to Detail</span>
+      <div class="stars">★★★★☆</div>
+    </div>
+    <div class="soft-item">
+      <span>Communication</span>
+      <div class="stars">★★★★☆</div>
+    </div>
+    <div class="soft-item">
+      <span>Team Collaboration</span>
+      <div class="stars">★★★★★</div>
+    </div>
+    <div class="soft-item">
+      <span>Quick Learning & Adaptability</span>
+      <div class="stars">★★★★★</div>
+    </div>
+  </div>
+</div>	  
+		  
+		  
+		 
+		  
+		  
+
+		  
 
           <div class="card-mini" id="contact">
             <h2>Contact</h2>
