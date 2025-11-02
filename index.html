@@ -129,7 +129,15 @@ a.button {
   padding: 6px 14px;    /* adjust padding for balance */
 }
 	
+/* എല്ലാ ഭാഗങ്ങൾക്കും */
+body, section, p, li, span, div {
+  line-height: 1.6;
+}
 
+/* Skills സെക്ഷനിൽ മാത്രം കുറവ് line-height */
+.skills, .skills * {
+  line-height: 1.1 !important;
+}
 
 	
 	
@@ -171,7 +179,12 @@ a.button {
         <div>
           <section class="section">
             <h2>About</h2>
-            <p class="lead">Results-driven QA professional with <strong>6+ years</strong> of IT experience, including <strong>4 years</strong> in manual and automation testing. Skilled in designing automation frameworks (Selenium + Java + TestNG), API testing (REST Assured, Postman), and integrating tests into CI/CD pipelines (Jenkins). Passionate about quality engineering and test automation that scales.</p>
+			            <p class="lead" >
+			Results-driven QA professional with <strong>4+ years</strong> of experience in 
+manual and automation testing. Skilled in designing automation frameworks (Selenium + Java + 
+TestNG), API testing (REST Assured, Postman), and integrating tests into CI/CD pipelines 
+(Jenkins). Passionate about quality engineering and test automation that scales.</p>
+  <!--          <p class="lead">Results-driven QA professional with <strong>6+ years</strong> of IT experience, including <strong>4 years</strong> in manual and automation testing. Skilled in designing automation frameworks (Selenium + Java + TestNG), API testing (REST Assured, Postman), and integrating tests into CI/CD pipelines (Jenkins). Passionate about quality engineering and test automation that scales.</p> -->
           </section>
 
           <section class="section">
